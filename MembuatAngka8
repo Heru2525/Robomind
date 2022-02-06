@@ -1,0 +1,15 @@
+#Membuat angka 8 
+repeat
+{
+    if(frontisclear){
+        paintWhite
+        forward(2)
+        right
+        }
+    if(frontIsWhite){
+            left
+        }
+    if(frontIswhite and (rightiswhite or leftiswhite)){ 
+            end
+        }       
+}
