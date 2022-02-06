@@ -1,0 +1,12 @@
+#Mengkuti garis putih
+
+right
+forward(8)
+
+repeat
+{
+    if(frontIsWhite){forward(1)}
+    if(rightIsWhite){right}
+    if(leftIsWhite){left}
+    if(frontIsObstacle){break}
+}
